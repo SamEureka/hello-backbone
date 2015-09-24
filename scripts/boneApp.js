@@ -1,5 +1,5 @@
-var appView = Backbone.View.extend({
-  el: '.hello',
+var HelloView = Backbone.View.extend({
+  el: $('.hello'),
   
   initialize: function(){
     this.render();
@@ -10,4 +10,4 @@ var appView = Backbone.View.extend({
   }
 });
 
-var appView = new appView();
+var helloView = new HelloView();

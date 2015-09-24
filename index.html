@@ -7,28 +7,14 @@
     <link rel="stylesheet" type="text/css" href="assets/css/hello.css">
   </head>
   <body>
-<div class="hello">
+    <div class="hello">
 
-</div>
+    </div>
 
   <script src="scripts/jquery-2.1.4.js"></script>
   <script src="scripts/underscore.js"></script>
   <script src="scripts/backbone.js"></script>
   <script src="scripts/bootstrap.js"></script>
-  <script>
-    var HelloView = Backbone.View.extend({
-  el: $('.hello'),
-  
-  initialize: function(){
-    this.render();
-  },
-
-  render: function(){
-    this.$el.html("<div class='big-words'>Hello World</div>");
-  }
-});
-
-var helloView = new HelloView();
-  </script>
+  <script src="scripts/boneApp.js"></script>
   </body>
   </html>
